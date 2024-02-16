@@ -1,7 +1,8 @@
 # 3Dvegetation-mt2unetplus
 A multi-task learning model for 3D urban vegetation extraction.
 
-![Rplot07](https://github.com/Jiahao-WW/3Dvegetation-mt2unetplus/assets/55845373/29379e04-8c7f-40bb-8151-8ec92c2dd993)
+![3D - 副本](https://github.com/Jiahao-WW/3Dvegetation-mt2unetplus/assets/55845373/ee79aa10-2765-4d99-af6f-0f64ae1f852d)
+
 
 
 A vegetation height map of six urban districts in Beijing
