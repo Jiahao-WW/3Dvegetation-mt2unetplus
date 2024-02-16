@@ -1,5 +1,5 @@
 # 3Dvegetation-mt2unetplus
-A multi-task learning model for 3D urban vegetation extraction.
+## A multi-task learning model for 3D urban vegetation extraction.
 A multi-task deep learning network for vegetation segmentation and height regression is constructed that fully considers the spectral and textural features of the vegetation. The adaptive dynamic weight optimization method is introduced to balance the importance of two tasks.
 
 ![3D - 副本](https://github.com/Jiahao-WW/3Dvegetation-mt2unetplus/assets/55845373/ee79aa10-2765-4d99-af6f-0f64ae1f852d)
