@@ -11,3 +11,4 @@ A vegetation height map of six urban districts in Beijing
 # Requirements
 * python>=3.8
 * pytorch>=1.10.0
+* gdal>=3.0
