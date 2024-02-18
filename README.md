@@ -14,4 +14,4 @@ A vegetation height map of six urban districts in Beijing
 * gdal>=3.0
 
 # Dataset
-GF7 image data: https://drive.google.com/drive/folders/1koWjEjVqWDOPBBw09hZt0obSwnIKBCjU?usp=sharing
+GF-7 image data can be accessed through this link: https://drive.google.com/drive/folders/1koWjEjVqWDOPBBw09hZt0obSwnIKBCjU?usp=sharing
