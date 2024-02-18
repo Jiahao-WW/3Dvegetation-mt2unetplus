@@ -26,13 +26,12 @@ def loss_weight(seg, reg, target1, target2, log_vars):
     #seg
     W1 = torch.exp(-log_vars[0])
     diff1 = F.cross_entropy(seg, target1)
-    #diff1 = F.binary_cross_entropy(seg, target1, reduction='mean')
     loss1 = diff1*W1 + log_vars[0]
 
     #reg
     W2 = torch.exp(-log_vars[1])
     diff2 = F.mse_loss(reg, target2, reduction='mean')
-    loss2 = diff2*W2 + log_vars[1]
+    loss2 = diff2*W2*0.5 + log_vars[1]
     return loss1 + loss2, W1, W2
 
 def loss_weight_ave(seg, reg, target1, target2):
